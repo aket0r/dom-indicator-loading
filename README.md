@@ -1,4 +1,4 @@
-# 🟢 DOM Indicator Loading
+# 🟢 DOM Indicator Loading (RU)
 
 **DOM Indicator** — это лёгкий и наглядный скрипт-индикатор, отображающий количество DOM-элементов на странице в реальном времени. Позволяет отслеживать нагрузку на интерфейс и вовремя замечать перегрузку страниц.
 
@@ -23,3 +23,32 @@
 ```js
 // Просто вставь в консоль DevTools или установи через Tampermonkey
 initDOMIndicator();
+
+```
+
+# 🟢 DOM Indicator Loading (ENG)
+
+**DOM Indicator** is a lightweight visual tool that displays the number of DOM nodes on a web page in real time. It helps developers monitor page complexity and detect overloads that may cause performance issues.
+
+---
+
+## 📦 Features
+
+- Shows live DOM node count (`document.querySelectorAll("*").length`)
+- Color status indicator:
+  - 🟩 Green — under 6000 elements
+  - 🟨 Yellow — between 6000 and 9000
+  - 🟥 Red — between 9000 and 15000
+  - ⚠️ Blinking warning + icon — above 15000 elements
+- Automatically updates every second
+- Visible indicator in bottom-right corner
+- Does **not** run in iframes (prevents duplicates in players/widgets)
+
+---
+
+## 💻 How to Use
+
+```js
+// Run in browser DevTools console or install as a userscript
+initDOMIndicator();
+```
