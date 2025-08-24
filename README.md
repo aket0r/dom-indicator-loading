@@ -6,7 +6,7 @@
 
 ## 📦 Возможности
 
-- Отображает количество DOM-узлов (`document.querySelectorAll("*").length`)
+- Отображает количество DOM-узлов и FPS (`document.querySelectorAll("*").length`)
 - Цветовая индикация:
   - 🟩 зелёный — < 6000 элементов
   - 🟨 жёлтый — от 6000 до 9000
@@ -18,7 +18,7 @@
 
 ---
 
-# 🟢 DOM Indicator Loading (ENG)
+# 🟢 DOM + FPS Indicator Loading (ENG)
 
 **DOM Indicator** is a lightweight visual tool that displays the number of DOM nodes on a web page in real time. It helps developers monitor page complexity and detect overloads that may cause performance issues.
 
@@ -26,7 +26,7 @@
 
 ## 📦 Features
 
-- Shows live DOM node count (`document.querySelectorAll("*").length`)
+- Shows live DOM node count and FPS (`document.querySelectorAll("*").length`)
 - Color status indicator:
   - 🟩 Green — under 6000 elements
   - 🟨 Yellow — between 6000 and 9000
