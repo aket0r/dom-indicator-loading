@@ -18,14 +18,6 @@
 
 ---
 
-## 💻 Использование
-
-```js
-// Просто вставь в консоль DevTools или установи через Tampermonkey
-initDOMIndicator();
-
-```
-
 # 🟢 DOM Indicator Loading (ENG)
 
 **DOM Indicator** is a lightweight visual tool that displays the number of DOM nodes on a web page in real time. It helps developers monitor page complexity and detect overloads that may cause performance issues.
@@ -45,10 +37,3 @@ initDOMIndicator();
 - Does **not** run in iframes (prevents duplicates in players/widgets)
 
 ---
-
-## 💻 How to Use
-
-```js
-// Run in browser DevTools console or install as a userscript
-initDOMIndicator();
-```
